@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.ArrayList;
 
 class GameMenu{
@@ -13,5 +14,17 @@ class GameMenu{
 	System.out.println(action);	
 		}
 	}
+	public String promtUser(){
+		
+		System.out.println("Type a number to choose an action.");
+		Scanner scanner = new Scanner(System.in);
+		String choice = scanner.nextLine();
+		return choice;
+	}
+
+	/*public String getAction(){
+
+	}*/
+
 
 }
